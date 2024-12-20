@@ -40,52 +40,32 @@ import 'package:ems_appbar/ems_appbar.dart';
 ### Rounded AppBar
 
 ```dart
-HeaderApp
-(
-widgetTitle
-:
-Text
-(
-"
-Your Custom Widget
-"
-)
-);
+HeaderApp(widgetTitle: Text ( "Your Custom Widget" ) );
 ```
 
 ### Image and Widget AppBar
 
 ```dart
-HeaderAppImage
-(
-widgetTitle: Text("Your Custom Widget"), urlPath: '
-https://picsum.photos/536/354
-'
-);
+HeaderAppImage(widgetTitle: Text("Your Custom Widget"), urlPath: 'https://picsum.photos/536/354');
 ```
 
 ### Centered Title and Image AppBar
 
 ```dart
-Scaffold
-(
-body: CustomScrollView(
-slivers: [
-HeaderImage(
-urlImage: 'https://picsum.photos/536/354',
-title: 'Your Custom text',
-),
-SliverList(
-delegate: SliverChildListDelegate(
-[
-Text("Your Custom Body Widget")
-],
-),
-)
-]
-,
-)
-,
+Scaffold (
+    body: CustomScrollView(
+        slivers: [
+            HeaderImage( urlImage: 'https://picsum.photos/536/354',
+                         title: 'Your Custom text'),
+        SliverList(
+            delegate: SliverChildListDelegate(
+                    [
+                    Text("Your Custom Body Widget")
+                    ],
+                ),
+            )
+        ],
+    ),
 );
 ```
 
