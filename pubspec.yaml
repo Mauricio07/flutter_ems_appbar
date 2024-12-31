@@ -1,6 +1,6 @@
 name: ems_appbar
 description: "library to handle different types of AppHeader"
-version: 0.0.2
+version: 0.0.3
 homepage: https://emsolucion.com
 
 environment:

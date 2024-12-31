@@ -26,7 +26,11 @@ class HeaderAppImage extends StatelessWidget implements PreferredSizeWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               widgetTitle,
-              AvatarWidget(urlPath: urlPath, boxFit: boxFit),
+              SizedBox(
+                height: 55,
+                width: 60,
+                child: AvatarWidget(urlPath: urlPath, boxFit: boxFit),
+              ),
             ],
           ),
         ),

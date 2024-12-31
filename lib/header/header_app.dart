@@ -16,8 +16,7 @@ class HeaderApp extends StatelessWidget implements PreferredSizeWidget {
         bottomRight: Radius.circular(40),
       ),
       child: AppBar(
-        centerTitle: true,
-        title: widgetTitle,
+        title: Center(child: widgetTitle),
       ),
     );
   }
