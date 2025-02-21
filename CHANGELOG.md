@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.4]
+- Alternative use title in the image
+
 ## [0.0.3]
 
 ### Added
